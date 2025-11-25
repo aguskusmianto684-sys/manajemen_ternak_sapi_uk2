@@ -1,0 +1,75 @@
+/* custom.css */
+
+/* Override container bawaan AdminMart supaya benar-benar full */
+.body-wrapper .container-fluid,
+.body-wrapper .container-sm,
+.body-wrapper .container-md,
+.body-wrapper .container-lg,
+.body-wrapper .container-xl,
+.body-wrapper .container-xxl {
+  max-width: 100% !important; /* jangan dibatasi 1300px */
+  margin: 0 !important;       /* hilangkan auto center */
+  padding: 30px !important;   /* tetap ada ruang kiri-kanan */
+  padding-top: 65px !important; /* beri ruang atas */
+}
+
+
+/* Rapiin tabel About */
+.table th {
+  text-align: center;
+  vertical-align: middle;
+  background: #f1f5f9; /* abu muda biar keliatan beda */
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Gambar biar rapi */
+.table td img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px; /* sudut agak bulat biar manis */
+  object-fit: cover;
+}
+
+/* Tombol aksi biar rapih */
+/* Semua teks pakai Poppins */
+body, .table, .card, .btn, .navbar {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; /* default agak tebal */
+  color: #1a1a1a;   /* lebih gelap dari #212529 */
+}
+
+/* Header tabel lebih bold */
+.table th {
+  font-weight: 700; /* tebal */
+  color: #000;      /* hitam pekat */
+}
+
+/* Isi tabel tetap rapi tapi lebih jelas */
+.table td {
+  font-weight: 500;
+  color: #222;
+  vertical-align: middle;
+}
+
+/* Judul card */
+.card-header h5 {
+  font-weight: 700;   /* bold */
+  font-size: 18px;
+  color: #fff;        /* putih biar kontras dengan background biru gradient */
+}
+
+/* Pakai font Poppins ke seluruh halaman */
+html, body, * {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500 !important;
+  color: #1a1a1a !important;
+}
+
+
+
+
+
